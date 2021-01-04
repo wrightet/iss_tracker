@@ -55,12 +55,13 @@ class Position extends React.Component {
 const posStyle = {
     display: 'flex',
     flexDirection: 'column',
-    border: '1px solid black',
+    border: '1px solid white',
     width: '15%',
     fontSize: '1em',
     margin:'5% auto 0% 10%',
     padding: '1%',
-    background:'white'
+    // background:'white',
+    color:'white'
 }
 
 export default Position;

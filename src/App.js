@@ -11,13 +11,14 @@ function App() {
 }
 
 const appStyle = {
-  
+  background:'black'
 };
 
 const titleStyle = {
   display:'flex',
   justifyContent: 'center',
   paddingTop: '3%',
+  color: 'white'
   
 }
 export default App;
