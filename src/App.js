@@ -11,7 +11,8 @@ function App() {
 }
 
 const appStyle = {
-  background:'black'
+  background:'black',
+  height: '100vh'
 };
 
 const titleStyle = {
