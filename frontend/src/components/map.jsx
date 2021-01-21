@@ -1,5 +1,5 @@
 import React from 'react';
-import {Keys} from '../api_key_nasa';
+import {Keys} from '../../../config/keys_dev';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 class MyMap extends React.Component{
   
