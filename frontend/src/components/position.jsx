@@ -51,30 +51,6 @@ class Position extends React.Component {
     
 }
 
-// const PositionToo = () => {
-//     const [lat, long] = this.useState(0);
-    
-//     return(
-//         <div >
-//             <div style={posStyle}>
-//                 {this.state.lat === ''
-//                     ?
-//                     <div>loading</div>
-//                     :
-//                     <div>
-//                         <div > Latitude: {this.state.lat}</div>
-//                         <div>Longitude: {this.state.long}</div>
-//                     </div>
-
-//                 }
-
-//             </div>
-
-//             <MyMap lat={this.state.lat} long={this.state.long} />
-//         </div> 
-//     )
-// }
-
 const posStyle = {
     display: 'flex',
     flexDirection: 'column',
